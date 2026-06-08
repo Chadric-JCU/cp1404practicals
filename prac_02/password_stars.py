@@ -13,7 +13,6 @@ def get_password() -> str:
         password = input("Enter a password: ")
     return password
 
-
 def print_stars(password):
     for letter in password:
         print("*", end="")
