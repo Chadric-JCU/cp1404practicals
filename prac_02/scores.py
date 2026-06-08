@@ -10,7 +10,7 @@ def main():
     grade = determine_grade(score)
     print(f"User score {score} is {grade}")
     if grade == "Excellent":
-        print("YOu get a prize!")
+        print("You get a prize!")
     random_score = random.randint(0, 100)
     grade = determine_grade(random_score)
     print(f"Random: {random_score} = {grade} ")
@@ -27,4 +27,4 @@ def determine_grade(score):
 
     return grade
 
-main()
+#main()
